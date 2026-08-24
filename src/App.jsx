@@ -14,7 +14,8 @@ import './App.css'
 //import {Welcome} from './components/Welcome.jsx'
 import { Greetings } from './components/Greetings.jsx'
 //import { UserCard } from './components/UserCard.jsx'
-import { CardWrapper } from './components/CardWrapper.jsx'
+//import { CardWrapper } from './components/CardWrapper.jsx'
+import { UserDetails } from './components/other-components/UserDetails.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -28,11 +29,13 @@ function App() {
       <Greetings /> */}
       {/* <UserCard age="25" city="Bayugan" email="yeur.@email.com"/> */}
       <br/>
-      <CardWrapper title="User Profile">
+      <UserDetails name="Bruce" isOnline={true}/>
+      <UserDetails name="Kwayne" isOnline={false}/>
+      {/* <CardWrapper title="User Profile">
         <p>Bruce wayne</p>
         <p>batman@jl.com</p>
         <button>Edit profile</button>
-        </CardWrapper>
+        </CardWrapper> */}
       {/* <Welcome name="aj" alias="Omniman"/>
       <Welcome name="mark" alias="Doom"/>
       <Welcome name="park" alias="Spider man"/> */}
