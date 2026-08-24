@@ -32,10 +32,10 @@ function App() {
     
       <br/>
       <UserDetails name="Bruce" isOnline={true}    
-      isPremium={true} isNew={true}/>
-      <UserDetails name="Kwayne" isOnline={false} isPremium={false} isNew={true}/>
-      <UserDetails name="Mark" isOnline={true} isPremium={true} isNew={true}/>
-      <UserDetails name="Agustine" isOnline={false} hideOffline={true} isPremium={true} isNew={true}/>
+      isPremium={true} isNew={false} role="Moderator"/>
+      <UserDetails name="Kwayne" isOnline={false} isPremium={false} isNew={true} role="Moderator"/>
+      <UserDetails name="Mark" isOnline={true} isPremium={true} isNew={true} role="Moderator"/>
+      <UserDetails name="Agustine" isOnline={false} hideOffline={true} isPremium={true} isNew={true} role="Moderator"/>
       {/* <CardWrapper title="User Profile">
         <p>Bruce wayne</p>
         <p>batman@jl.com</p>
