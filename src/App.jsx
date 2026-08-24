@@ -32,7 +32,7 @@ function App() {
       <UserDetails name="Bruce" isOnline={true}/>
       <UserDetails name="Kwayne" isOnline={false}/>
       <UserDetails name="Mark" isOnline={true}/>
-      <UserDetails name="Augustine" isOnline={false}/>
+      <UserDetails name="Agustine" isOnline={false} hideOffline={true}/>
       {/* <CardWrapper title="User Profile">
         <p>Bruce wayne</p>
         <p>batman@jl.com</p>

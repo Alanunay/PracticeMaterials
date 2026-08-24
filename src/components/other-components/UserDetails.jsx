@@ -1,6 +1,10 @@
 
-export const UserDetails =({name, isOnline}) =>{
- if(isOnline){
+export const UserDetails =({name, isOnline, hideOffline}) =>{
+ if(hideOffline && !isOnline){
+    return null;
+ }
+ 
+    if(isOnline){
     return (
     <div>
       <h3>{name}</h3>
