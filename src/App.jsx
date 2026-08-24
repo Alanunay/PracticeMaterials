@@ -29,10 +29,13 @@ function App() {
       <Greetings /> */}
       {/* <UserCard age="25" city="Bayugan" email="yeur.@email.com"/> */}
       <br/>
-      <UserDetails name="Bruce" isOnline={true}/>
-      <UserDetails name="Kwayne" isOnline={false}/>
-      <UserDetails name="Mark" isOnline={true}/>
-      <UserDetails name="Agustine" isOnline={false} hideOffline={true}/>
+    
+      <br/>
+      <UserDetails name="Bruce" isOnline={true}    
+      isPremium={true} isNew={true}/>
+      <UserDetails name="Kwayne" isOnline={false} isPremium={false} isNew={true}/>
+      <UserDetails name="Mark" isOnline={true} isPremium={true} isNew={true}/>
+      <UserDetails name="Agustine" isOnline={false} hideOffline={true} isPremium={true} isNew={true}/>
       {/* <CardWrapper title="User Profile">
         <p>Bruce wayne</p>
         <p>batman@jl.com</p>
