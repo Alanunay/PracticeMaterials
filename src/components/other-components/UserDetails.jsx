@@ -16,7 +16,7 @@ export const UserDetails =({name, isOnline, hideOffline}) =>{
  }
  return (
     <>
-       <h3>{name}</h3>
+      <h3>{name}</h3>
       <span>Offline</span>
       <p>Not Available</p>
       <small>Check back later</small>
