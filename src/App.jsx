@@ -3,8 +3,8 @@
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
 import './App.css'
-import { PersonalInfo } from './components/other-components/PersonalInfo'
-import StudentList from './components/StudentList'
+//import { PersonalInfo } from './components/other-components/PersonalInfo'
+//import StudentList from './components/StudentList'
 //import { Hello } from './components/Hello.jsx'
 //import { CandidateProfile } from './components/CandidateProfile.jsx'
 //import { Testing } from './components/Testing.jsx'
@@ -14,11 +14,11 @@ import StudentList from './components/StudentList'
 //import MyPlace from './components/MyPlace.jsx'
 //import { Product } from './components/Product.jsx'
 //import {Welcome} from './components/Welcome.jsx'
-//import { Greetings } from './components/Greetings.jsx'
+import { Greetings } from './components/Greetings.jsx'
 //import { UserCard } from './components/UserCard.jsx'
 //import { CardWrapper } from './components/CardWrapper.jsx'
 //import { UserDetails } from './components/other-components/UserDetails.jsx'
-//import { ProductList } from './components/other-components/ProductList.jsx'
+import { ProductList } from './components/other-components/ProductList.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -26,11 +26,11 @@ function App() {
     
     
     <div>
-      {/* <Greetings  message="Good morning"/> */}
-      <StudentList/>
+      <Greetings  message="Good morning"/>
+      {/* <StudentList/> */}
 
-      <PersonalInfo/>
-      {/* <ProductList/> */}
+      {/* <PersonalInfo/> */}
+      <ProductList/>
       {/* <Greetings name="Paul"/>
       <Greetings message="Thanks"/>
       <Greetings /> */}

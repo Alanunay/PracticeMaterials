@@ -15,14 +15,17 @@ export const ProductList =() =>{
                         id: 3,
                         name: "Tablet",
                         price: 499,
+                    },
+                    {
+                        id: 4,
+                        name: "Earphones",
+                        price: 159,
                     },]
-
-
-const productElements = products.filter((product)=>{return product.price > 500;}).map((stock) => {
+const productElements = products.map((product) => {
                     return(
-                        <div>
-                            <h3>{stock.id + "."}{" "}{stock.name}</h3>
-                            <p>Price: {stock.price}</p>
+                        <div key={product.id}>
+                            <h3>{product.name}</h3>
+                            <p>Price: {product.price}</p>
                         </div>
                     )
                 })
@@ -33,7 +36,6 @@ const productElements = products.filter((product)=>{return product.price > 500;}
             }
     </div>
   );
-
 //   return (
 //     <div>
 //         <h2>Our Products</h2>
