@@ -14,29 +14,33 @@ import './App.css'
 //import MyPlace from './components/MyPlace.jsx'
 //import { Product } from './components/Product.jsx'
 //import {Welcome} from './components/Welcome.jsx'
-import { Greetings } from './components/Greetings.jsx'
+//import { Greetings } from './components/Greetings.jsx'
+import { Alert } from './components/other-components/Alert.jsx'
 //import { UserCard } from './components/UserCard.jsx'
 //import { CardWrapper } from './components/CardWrapper.jsx'
 //import { UserDetails } from './components/other-components/UserDetails.jsx'
-import { ProductList } from './components/other-components/ProductList.jsx'
+//import { ProductList } from './components/other-components/ProductList.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
   return (
-    
-    
-    <div>
-      <Greetings  message="Good morning"/>
-      {/* <StudentList/> */}
 
+    <div>
+      <Alert>
+        Your changes have been saved
+      </Alert>
+       <Alert type="error">
+        Something wrong!
+      </Alert>
+      {/* <Greetings  message="Good morning"/> */}
+      {/* <StudentList/> */}
       {/* <PersonalInfo/> */}
-      <ProductList/>
+      {/* <ProductList/> */}
       {/* <Greetings name="Paul"/>
       <Greetings message="Thanks"/>
       <Greetings /> */}
       {/* <UserCard age="25" city="Bayugan" email="yeur.@email.com"/> */}
       <br/>
-    
       <br/>
       {/* <UserDetails name="Bruce" isOnline={true}    
       isPremium={true} isNew={false} role="Moderator"/>
