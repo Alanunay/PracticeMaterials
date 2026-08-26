@@ -10,7 +10,7 @@ export const ProductList =() =>{
                         id: 2,
                         name: "Phone",
                         price: 699,
-                    },
+                    },      
                     {
                         id: 3,
                         name: "Tablet",
