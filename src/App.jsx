@@ -3,6 +3,10 @@
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
 import './App.css'
+//import { Contact } from './components/other-components/Contact'
+//import { CustomButton } from './components/other-components/CustomButton'
+import { Menu } from './components/other-components/Menu'
+//import { NewsLetter } from './components/other-components/NewsLetter'
 //import { PersonalInfo } from './components/other-components/PersonalInfo'
 //import StudentList from './components/StudentList'
 //import { Hello } from './components/Hello.jsx'
@@ -15,7 +19,7 @@ import './App.css'
 //import { Product } from './components/Product.jsx'
 //import {Welcome} from './components/Welcome.jsx'
 //import { Greetings } from './components/Greetings.jsx'
-import { Alert } from './components/other-components/Alert.jsx'
+//import { Alert } from './components/other-components/Alert.jsx'
 //import { UserCard } from './components/UserCard.jsx'
 //import { CardWrapper } from './components/CardWrapper.jsx'
 //import { UserDetails } from './components/other-components/UserDetails.jsx'
@@ -26,12 +30,19 @@ function App() {
   return (
 
     <div>
-      <Alert>
+      <Menu/>
+      {/* <Contact/>
+         <br />
+      <NewsLetter/> */}
+      <br />
+      {/* <CustomButton text="Like"/>
+      <CustomButton text="Bookmark"/> */}
+      {/* <Alert>
         Your changes have been saved
       </Alert>
        <Alert type="error">
         Something wrong!
-      </Alert>
+      </Alert> */}
       {/* <Greetings  message="Good morning"/> */}
       {/* <StudentList/> */}
       {/* <PersonalInfo/> */}

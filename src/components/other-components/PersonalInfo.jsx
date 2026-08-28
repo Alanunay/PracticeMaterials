@@ -42,7 +42,7 @@ export const PersonalInfo =() =>{
       {
         persons.map((person) =>{
             return(
-                <div >
+                <div>
                     <h4>{person.id + "."}{person.name + " " + person.lastname}
                     </h4>
                     <p>Age: {person.age}</p>
